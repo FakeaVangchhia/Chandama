@@ -1,0 +1,104 @@
+/* General Body Styling */
+body {
+    background: linear-gradient(135deg, #f9f9f9, #e9ecef);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Custom Card Styling */
+.custom-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 35px 25px; /* Slightly increased padding */
+    width: 600px; /* Medium size width */
+    text-align: center;
+}
+
+.card-success {
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 35px 25px; /* Slightly increased padding */
+    width: 600px; /* Medium size width */
+    text-align: center;
+}
+/* Heading */
+.custom-card h2 {
+    font-size: 2rem; /* Increased font size for better readability */
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Form Group Styling */
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Increased spacing between form fields */
+}
+
+/* Labels */
+label {
+    font-size: 1rem; /* Slightly larger font size */
+    font-weight: bold;
+    color: #555;
+    margin-right: 15px;
+    width: 40%;
+    text-align: left;
+}
+
+/* Input Fields */
+.custom-input {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px; /* Slightly larger input fields */
+    width: 58%; /* Adjusted to match medium card size */
+    font-size: 1rem;
+    outline: none;
+}
+
+.custom-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit Button */
+.custom-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 25px; /* Increased button size */
+    font-size: 1.1rem; /* Slightly larger text for the button */
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+/* Error Messages */
+.error {
+    font-size: 0.85rem;
+    color: red;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.back-home {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 25px; /* Increased button size */
+    font-size: 1.1rem; /* Slightly larger text for the button */
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
